@@ -1,0 +1,464 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 237, 237);
+}
+
+.header{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 110%;
+    
+    margin-top: -1.8%;
+    /* background-color: rgb(41, 34, 34); */
+    padding: 1%;
+    background-repeat:no-repeat;
+    background-size: 101%;
+    background-image: url("picture/background/1.png");
+}
+.Title{
+    font-size: 3em;
+    color: red;
+}
+.strTitle{
+    color: green;
+}
+.Navfunction{
+    margin-top: 4%;
+}
+.Navfunction>.mainOpener>button:hover{
+    transition-duration: 1.5s;
+    border-radius: 50%;
+    border-right: 2px rgb(151, 147, 147) solid;
+    border-bottom: 4px rgb(236, 221, 221) solid;
+    background-color: transparent;
+    font-size: 1.3em;
+}
+.Navfunction>.navBtns>button:hover{
+    transition-duration: 1.5s;
+    border-radius: 50%;
+    border-right: 2px rgb(151, 147, 147) solid;
+    border-bottom: 2px rgb(236, 221, 221) solid;
+    background-color: transparent;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.Navfunction>.mainOpener>button{
+    transition-duration: 1.5s;
+    color: white;
+    width: 2em;
+    border: 20px;
+    background-color: transparent;
+    font-size: 2em;
+}
+.Navfunction>.navBtns>button{
+    border: 20px;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+ 
+}
+.Navfunction>.navBtns>.home{
+    /* padding: -10%; */
+    /* border-radius:** 50%; */
+    /* border-right: 2px rgb(151, 147, 147) solid; */
+    /* border-bottom: 2px rgb(236, 221, 221) solid; */
+   text-decoration: white underline;
+    
+}
+.navBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Navfunction{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+           /* BODY */
+
+
+        /* First Section */
+.First_Section{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* margin-top: -1%; */
+    height: 400px;
+    background-blend-mode: darken; 
+    background-image: url("picture/background/2.png");
+}
+.First_Section>.Title{
+    font-size: 6em;
+}
+.First_Section>button{
+ 
+    border: 4px solid black;
+    height: 4em;
+    font-size: 2em;
+    background-color: transparent;
+}
+.First_Section>.signup{
+    background-color: rgb(198, 198, 209);
+    padding-left: 100px;
+    border-bottom: 0px solid black;
+    text-align: left;
+    border-top-right-radius: 100%;
+    color: red;
+}
+.First_Section>.login{
+    color: green;
+    background-color: rgb(198, 198, 211);
+    border-top: transparent;
+    text-align: right;
+    padding-right: 100px;
+    border-bottom-left-radius: 100%;
+}
+
+
+/* hovers */
+.First_Section>.signup:hover{
+    
+    border: whitesmoke;
+    background-color: rgb(71, 70, 70);
+}
+
+.First_Section>.login:hover{
+    border: whitesmoke;
+    background-color: rgb(71, 70, 70);
+}
+
+
+    /* Second section */
+.Second_Section>center>h2{
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+.Second_Section>p{
+    margin-top: 0px;
+    font-size: 1.1em;
+}
+.services{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.online{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 96, 182);
+    border: rgb(138, 15, 39) 5px solid;
+    border-radius: 10%;
+    height: 25em;
+    padding: 0.5em;
+    margin: 1.3em;
+    width: 20em;
+    transition-duration: 1.7s;
+    
+}
+.online>h3{
+    text-decoration: underline;
+}
+.online:hover{
+    background-color: rgb(24, 123, 216);
+    border: red 5px solid;
+    margin-top: -1em;
+    transition-duration: 1.7s;
+}
+
+
+
+
+
+/* section 3 */
+.section_three>div>h2{
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+.section_three>center>h2{
+    text-decoration: underline;
+}
+.section_three>p{
+    margin-top: 0px;
+    font-size: 0.1em;
+}
+hr{
+    width: 90%;
+}
+
+        /* method 1-- Linear method */
+.method>h3{
+    text-decoration: underline;
+}
+.method{
+    text-align: center;
+    padding: 2%;
+}
+.method>div{
+    text-align: center;
+    /* margin-top: 20%; */
+    /* margin-left: 30%; */
+    /* width: 40%; */
+   
+    border-radius: 70%;
+}
+input{
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 45%;
+    height: 2em;
+    font-size: 1em;
+}
+.method>div>button{
+    text-align: center;
+    height: 2em;
+    border-radius: 30px;
+    width: 23%;
+    font-size: 1.2em;
+}
+.method>div>button:hover{
+    background-color: gray;
+}
+
+.method>div>h3{
+    text-decoration: underline;
+}
+.method>img{
+    border: solid red 5px;
+    border-radius: 100%;
+}
+
+
+
+        /* method 1-- Linear method */
+.method>h3{
+    text-decoration: underline;
+}
+.method{
+    text-align: center;
+    padding: 2%;
+}
+.method>div{
+    text-align: center;
+    /* margin-top: 20%; */
+    /* margin-left: 30%; */
+    /* width: 40%; */
+   
+    border-radius: 70%;
+}
+input{
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 45%;
+    height: 2em;
+    font-size: 1em;
+}
+.method>div>button{
+    text-align: center;
+    height: 2em;
+    border-radius: 30px;
+    width: 23%;
+    font-size: 1.2em;
+}
+.method>div>button:hover{
+    background-color: gray;
+}
+
+.method>div>h3{
+    text-decoration: underline;
+}
+.method>img{
+    border: solid red 5px;
+    border-radius: 100%;
+}
+
+
+
+        /* method 2-- Diamond method */
+        .methodTwo>h3{
+            text-decoration: underline;
+        }
+        .methodTwo{
+            text-align: center;
+            padding: 2%;
+        }
+        .methodTwo>div{
+            text-align: center;
+            /* margin-top: 20%; */
+            /* margin-left: 30%; */
+            /* width: 40%; */
+           
+            border-radius: 70%;
+        }
+        input{
+            text-align: center;
+            font-weight: bolder;
+            border-radius: 30px;
+            width: 45%;
+            height: 2em;
+            font-size: 1em;
+        }
+        .methodTwo>div>button{
+            text-align: center;
+            height: 2em;
+            border-radius: 30px;
+            width: 23%;
+            font-size: 1.2em;
+        }
+        .methodTwo>div>button:hover{
+            background-color: gray;
+        }
+        
+        .methodTwo>div>h3{
+            text-decoration: underline;
+        }
+        .methodTwo>img{
+            border: solid rgb(29, 212, 236) 5px;
+            border-radius: 100%;
+        }
+        
+        
+        
+
+
+/* method 3-- Golden method */
+.methodThree>h3{
+    font-size: 2em;
+    color: gold;
+    text-decoration: underline;
+}
+.methodThree{
+    text-align: center;
+    padding: 2%;
+}
+.methodThree>div{
+    text-align: center;
+    /* margin-top: 20%; */
+    /* margin-left: 30%; */
+    /* width: 40%; */
+   
+    border-radius: 70%;
+}
+.GoldCalc{
+    border-color: gold;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 45%;
+    height: 2em;
+    font-size: 1em;
+}
+.methodThree>div>button{
+    color: rgb(0, 0, 0);
+    border-color: gold;
+    background-color: rgb(119, 104, 104);
+    text-align: center;
+    height: 2em;
+    border-radius: 30px;
+    width: 23%;
+    font-size: 1.2em;
+}
+.methodThree>div>button:hover{
+    color: gold;
+    background-color: rgb(24, 22, 22);
+}
+
+.methodThree>div>h3{
+    
+    text-decoration: underline;
+}
+.methodThree>img{
+    border: solid gold 5px;
+    border-radius: 100%;
+}
+
+
+
+            /* end of body */
+
+
+
+
+
+
+
+
+/* .login{
+    border-top: 0px solid black;
+    border-left: black 0px solid;
+    background-color: transparent;
+} */
+
+
+
+
+                    /* footer Panel */
+.footer{
+    border-top: black 5px solid;
+    background-size: 200%;
+    background-image: url("picture/background/1.png");
+    padding: 1%;
+    text-align: center;
+    color: honeydew;
+}
+.footer>h2{
+    text-decoration: underline;
+}
+.under{
+    display: flex;
+    flex-direction: row;
+    border-top: 5px solid whitesmoke;
+    justify-content: space-evenly;
+}
+.info{
+    padding: 1%;
+    border-right: solid white 5px;
+}
+.info>p{
+    text-decoration: underline;
+}
+.info>ul{
+    text-align: left;
+}
+
+.contact{
+    padding: 1%;
+
+}
+.contact>p{
+    text-decoration: underline;
+}
+.contact>ul{
+    text-align: left;
+}
+
+
+
+
+/* 
+.logo{
+    padding: 1%;
+}
+.logo>p{
+    text-decoration: underline;
+} */
+

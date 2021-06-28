@@ -1,0 +1,213 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 237, 237);
+}
+
+.header{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 110%;
+    
+    margin-top: -1.8%;
+    /* background-color: rgb(41, 34, 34); */
+    padding: 1%;
+    background-repeat:no-repeat;
+    background-size: 101%;
+    background-image: url("picture/background/1.png");
+}
+.Title{
+    font-size: 3em;
+    color: red;
+}
+.strTitle{
+    color: green;
+}
+.Navfunction{
+    margin-top: 4%;
+}
+.Navfunction>.mainOpener>button:hover{
+    transition-duration: 1.5s;
+    border-radius: 50%;
+    border-right: 2px rgb(151, 147, 147) solid;
+    border-bottom: 4px rgb(236, 221, 221) solid;
+    background-color: transparent;
+    font-size: 1.3em;
+}
+.Navfunction>.navBtns>button:hover{
+    transition-duration: 1.5s;
+    border-radius: 50%;
+    border-right: 2px rgb(151, 147, 147) solid;
+    border-bottom: 2px rgb(236, 221, 221) solid;
+    background-color: transparent;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.Navfunction>.mainOpener>button{
+    transition-duration: 1.5s;
+    color: white;
+    width: 2em;
+    border: 20px;
+    background-color: transparent;
+    font-size: 2em;
+}
+.Navfunction>.navBtns>button{
+    border: 20px;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+ 
+}
+.Navfunction>.navBtns>.category{
+    transition-duration: 1.5s;
+    /* padding: -10%; */
+    /* border-radius:** 50%; */
+    /* border-right: 2px rgb(151, 147, 147) solid; */
+    /* border-bottom: 2px rgb(236, 221, 221) solid; */
+   text-decoration: white underline;
+    
+}
+.navBtns{
+    transition-duration: 1.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Navfunction{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+           /* BODY */
+
+    /* section 1 */
+.sectionI{
+    transition-duration: 1.5s;
+    margin-top: -1%;
+    background-size: 100%;
+    background-image: url("picture/car/back1.jpeg");
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+
+}
+hr{
+    width: 90%;
+}
+.sectionI>h2{
+    text-decoration: underline;
+}
+    /* section 1 endeing */
+
+
+
+
+
+
+        /* section 2 */
+.sectionII{
+    font-size: 1.2em;
+    transition-duration: 1s;
+}
+.sport{
+    text-align: center;
+    height: 45%;
+}
+.sport>h2{
+    text-decoration: underline;
+}
+.sport>button{
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+
+
+
+
+        /* section 2 ending */
+            /* end of body */
+
+
+
+
+
+
+
+
+/* .login{
+    border-top: 0px solid black;
+    border-left: black 0px solid;
+    background-color: transparent;
+} */
+
+
+
+
+                    /* footer Panel */
+.footer{
+    border-top: black 5px solid;
+    background-size: 200%;
+    background-image: url("picture/background/1.png");
+    padding: 1%;
+    text-align: center;
+    color: honeydew;
+}
+.footer>h2{
+    text-decoration: underline;
+}
+.under{
+    display: flex;
+    flex-direction: row;
+    border-top: 5px solid whitesmoke;
+    justify-content: space-evenly;
+}
+.info{
+    padding: 1%;
+    border-right: solid white 5px;
+}
+.info>p{
+    text-decoration: underline;
+}
+.info>ul{
+    text-align: left;
+}
+
+.contact{
+    padding: 1%;
+
+}
+.contact>p{
+    text-decoration: underline;
+}
+.contact>ul{
+    text-align: left;
+}
+
+
+
+
+/* 
+.logo{
+    padding: 1%;
+}
+.logo>p{
+    text-decoration: underline;
+} */
+
