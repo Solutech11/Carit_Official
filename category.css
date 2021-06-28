@@ -98,7 +98,7 @@ body{
     margin-top: -1%;
     background-size: 100%;
     background-image: url("picture/car/back1.jpeg");
-    height: 90vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     color: aliceblue;
@@ -123,20 +123,41 @@ hr{
 
         /* section 2 */
 .sectionII{
+    height: 600px;
     font-size: 1.2em;
     transition-duration: 1s;
+    padding: 2%;
 }
 .sport{
-    text-align: center;
-    height: 45%;
+    border: solid black 3px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 120%;
+    background-size: 100%;
+    background-image: url("picture/car/feature-luxury-sport-car.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    height: 50%;
 }
 .sport>h2{
     text-decoration: underline;
 }
 .sport>button{
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
     border: transparent;
     border-bottom: solid gray 0.5em;
 }
+.sport>button:hover{
+    transition-duration: 0.7s;
+    border-bottom: black solid 0.5em;
+}
+
 
 
 
