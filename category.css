@@ -123,10 +123,10 @@ hr{
 
         /* section 2 */
 .sectionII{
-    height: 600px;
+    height: 1000px;
     font-size: 1.2em;
     transition-duration: 1s;
-    padding: 2%;
+    padding: 1%;
 }
 .sport{
     border: solid black 3px;
@@ -140,7 +140,7 @@ hr{
     align-items: center;
     justify-content: center;
     /* text-align: center; */
-    height: 50%;
+    height: 30%;
 }
 .sport>h2{
     text-decoration: underline;
