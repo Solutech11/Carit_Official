@@ -11,7 +11,7 @@ var homeBtn= document.querySelector(".home"),
     category= document.querySelector(".category"),
     
     // Product
-    product= document.querySelector(".product"),
+    Order= document.querySelector(".order"),
 
     //About
     About= document.querySelector(".about");
@@ -42,7 +42,7 @@ Pagelinking(homeBtn, "index.html");
 //category
 Pagelinking(category, "category.html");
 //Product
-Pagelinking(product, "index.html");
+Pagelinking(order, "index.html");
 // About
 Pagelinking(About, "index.html");
 

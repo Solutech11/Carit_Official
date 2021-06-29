@@ -11,7 +11,7 @@ var homeBtn= document.querySelector(".home"),
     category= document.querySelector(".category"),
     
     // Product
-    product= document.querySelector(".product"),
+    order= document.querySelector(".order"),
 
     //About
     About= document.querySelector(".about");
@@ -42,7 +42,7 @@ Pagelinking(homeBtn, "index.html");
 //category
 Pagelinking(category, "category.html");
 //Product
-Pagelinking(product, "index.html");
+Pagelinking(order, "index.html");
 // About
 Pagelinking(About, "index.html");
 
@@ -107,23 +107,79 @@ setInterval(function (){
 // divs
 var Sportdiv = document.querySelector(".sport"),    //Sport category div
     
+    sedandiv = document.querySelector(".Sedans"),   //Sedan category div
+
     SUVdiv = document.querySelector(".suv"),        //SUV Category div
-// Button
+
+    pickupDiv = document.querySelector(".Pickup"),  //Pickup category div
+
+    convertibleDiv = document.querySelector(".convertible"),//Convertible category div
+
+    vanDiv = document.querySelector(".Van"),        //van div
+
+    truckDiv = document.querySelector(".Truck"),     //truck div
+
+    bikesDiv = document.querySelector(".bikes"),     //bikes div
+
+    newCar = document.querySelector(".newCar"),   //bikes div
+
+    usedCar = document.querySelector(".usedCar"),   //Used car div
+
+    roadstarDiv = document.querySelector(".Roadstar"),//Roadstar category div
+    // Button
     sportBtn = document.querySelector(".sportBtn"), //Sport Btn Category
 
-    suvBtn =  document.querySelector(".suvBtn");    //Suv btn Category
+    sedanBtn = document.querySelector(".sedanbtn"), //Sedan Btn
 
+    suvBtn =  document.querySelector(".suvBtn"),    //Suv btn Category
 
-    //Adding The Styles function
-    CatStyle(SUVdiv, "white", "url('picture/car/suv.jfif')");
+    roadstarBtn = document.querySelector(".roadstarbtn"),// Roadstar btn
 
+    convertibleBtn = document.querySelector(".convertiblebtn"),// convertible btn
 
+    vanbtn = document.querySelector(".vanbtn"),     //van btn
+    
+    truckBtn = document.querySelector(".truckBtn"), //truck btn
 
+    bikesBtn = document.querySelector(".bikes"),    //Bikes btn
 
+    newCarBtn = document.querySelector(".newCarBtn"),//new car btn
 
+    usedCarBtn = document.querySelector(".usedCarBtn"),//Used Car Btn
+
+    pickupBtn = document.querySelector(".Pickupbtn"); //Pickup btn
+
+        //Adding The Styles function
+    //SUV style
+CatStyle(SUVdiv, "white", "url('picture/car/suv.jfif')");
+
+    //Sedan style
+CatStyle(sedandiv, "black", "url('picture/car/sedan.jfif')")
+
+    //Pickup Style
+CatStyle(pickupDiv, "white", "url('picture/car/pickup.jfif')")
+
+    //Roadstar style
+CatStyle(roadstarDiv, "white", "url('picture/car/roadstar.jfif')")
    
+    //Convertible style
+CatStyle(convertibleDiv, "red", "url('picture/car/convertible.jfif')")
 
-        //Body Ends Here
+    //Van
+CatStyle(vanDiv, "white", "url('picture/car/van.jpg')")
+
+    //Truck
+CatStyle(truckDiv, "black", "url('picture/car/big truck.jpg')")
+
+    //Bikes
+CatStyle(bikesDiv, "white", "url('picture/car/bike.jpg')")
+        
+    //new car
+CatStyle(newCar, "white", "url('picture/car/newcar.jpg')")
+
+    //used car
+CatStyle(usedCar, "white", "url('picture/car/usedcar.jfif')")
+//Body Ends Here
 
 
 
@@ -203,6 +259,7 @@ function slide(image_one, image_two ){
 
 function CatStyle(divname, color, imageURL){
     //This is for the div
+    divname.style.width= "95%"
     divname.style.color= color;
     divname.style.border= "solid black 3px";
     divname.style.borderRadius= "30px";
@@ -216,69 +273,6 @@ function CatStyle(divname, color, imageURL){
     divname.style.alignItems= "center";
     divname.style.justifyContent= "center";
     // /* text-align: center; */
-    divname.style.height= "30%";
+    divname.style.height= "8.5%";
 
-    // //This is for the button
-    // buttonClass.style.mixBlendMode= "difference";
-    // buttonClass.style.borderRadius= "30px";
-    // buttonClass.style.color= "whitesmoke";
-    // buttonClass.style.padding= "auto";
-    // buttonClass.style.fontSize= "80%";
-    // buttonClass.style.height= "23%";
-    // buttonClass.style.fontWeight= "bolder";
-    // buttonClass.style.background= "transparent";
-    // buttonClass.style.border= "transparent";
-    // buttonClass.style.borderBottom= "solid gray 0.5em";
-    // //hover button
-    // buttonClass.addEventListener("mouseover", function(){
-    //     buttonClass.style.mixBlendMode= "difference";
-    //     buttonClass.style.backgroundColor= "rgba(99, 96, 96, 0.596)";
-    //     buttonClass.style.transitionDuration= "0.9s";
-    //     buttonClass.style.borderBottom= "black solid 0.5em";
-    
 };
-
-
-
-// var nm ="soludo" ;
-
-
-// firebaseDatabase databxtom = Firebase.getInstance("www.tombraDatabase.com")
-
-
-// ////signup pag
-// databxtom.child("0702346754").child("profile").child("username").setValue("soludo")
-// databxtom.child("0702346754").child("profile").child("password").setValue("soludox1234")
-
-
-// databxtom.child("0702346754").child("followers").child("0813247362").setValue("daniel")
-// databxtom.child("0702346754").child("followers").child("0983283729").setValue("tombra")
-
-// //////////log in
-
-// var passwd = databxtom.child("0702346754").child("profile").child("password").getValue();
-// var usernm = databxtom.child("0702346754").child("profile").child("username").getValue();
-
-// if(usernm.exists()){
-
-
-
-//     if(passwd == "value in textbox"){
-
-// //login
-
-//     }
-
-
-
-// }
-
-
-
-// ///inside the app
-
-
-
-
-
-

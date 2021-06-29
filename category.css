@@ -130,12 +130,19 @@ hr{
 
         /* section 2 */
 .sectionII{
-    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 5000px;
     font-size: 1.2em;
     transition-duration: 1s;
-    padding: 1%;
+    
 }
 .sport{
+    width: 95%;
     color: whitesmoke;
     border: solid black 3px;
     border-radius: 30px;
@@ -151,7 +158,7 @@ hr{
     align-items: center;
     justify-content: center;
     /* text-align: center; */
-    height: 30%;
+    height: 8.5%;
 }
 .sport>h2{
     /* color */
@@ -166,6 +173,7 @@ hr{
     font-size: 80%;
     height: 23%;
     font-weight: bolder;
+    
     
     /* -webkit-filter: invert(100%); */
     background: transparent;
@@ -194,6 +202,197 @@ hr{
     border-bottom: solid gray 0.5em;
 }
 .suvBtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.sedanbtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.sedanbtn:hover {
+    color: black;
+    mix-blend-mode: normal;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+
+.Pickupbtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.Pickupbtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.roadstarbtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.roadstarbtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.vanbtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.vanbtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.truckBtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.truckBtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.bikesBtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.bikesBtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.convertiblebtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.convertiblebtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.newCarBtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.newCarBtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.usedCarBtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.usedCarBtn:hover {
     mix-blend-mode: difference;
     background-color: rgba(99, 96, 96, 0.596);
     transition-duration: 0.9s;
