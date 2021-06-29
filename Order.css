@@ -95,13 +95,26 @@ body{
 
 
            /* BODY */
-
+.orderPg{
+    height: 600px;
+}
+.orderPg>center>h2{
+    text-decoration: underline;
+}
+.orderList{
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
 
 
 
 
                     /* footer Panel */
 .footer{
+    
     border-top: black 5px solid;
     background-size: 200%;
     background-image: url("picture/background/1.png");
