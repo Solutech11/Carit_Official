@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+    /* scrollbar-3dlight-color: blue; */
+}
 body{
     margin-top: 0px;
     margin: 0px;
@@ -94,6 +98,10 @@ body{
 
     /* section 1 */
 .sectionI{
+    background-repeat: no-repeat;
+    background-color: rgb(53, 51, 51);
+    background-position: center;
+    /* padding: ; */
     transition-duration: 1.5s;
     margin-top: -1%;
     background-size: 100%;
@@ -105,19 +113,16 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
-
-
+    text-align: center;
 }
 hr{
     width: 90%;
 }
 .sectionI>h2{
+    font-weight: bolder;
     text-decoration: underline;
 }
-    /* section 1 endeing */
-
-
-
+    /* section 1 ending */
 
 
 
@@ -129,11 +134,15 @@ hr{
     padding: 1%;
 }
 .sport{
+    color: whitesmoke;
     border: solid black 3px;
     border-radius: 30px;
     font-weight: bolder;
     font-size: 120%;
-    background-size: 100%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position-x: center; */
+    background-position: center;
     background-image: url("picture/car/feature-luxury-sport-car.jpg");
     display: flex;
     flex-direction: column;
@@ -146,6 +155,11 @@ hr{
     text-decoration: underline;
 }
 .sport>button{
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
     font-weight: bolder;
     
     /* -webkit-filter: invert(100%); */
@@ -154,6 +168,10 @@ hr{
     border-bottom: solid gray 0.5em;
 }
 .sport>button:hover{
+    mix-blend-mode: difference;
+    /* background: ; */
+    /* filter: blur(2px); */
+    background-color: rgba(99, 96, 96, 0.596);
     transition-duration: 0.7s;
     border-bottom: black solid 0.5em;
 }
