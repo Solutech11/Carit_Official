@@ -11,7 +11,7 @@ var homeBtn= document.querySelector(".home"),
     category= document.querySelector(".category"),
     
     // Product
-    order= document.querySelector(".order"),
+    Order= document.querySelector(".order"),
 
     //About
     About= document.querySelector(".about");
@@ -42,7 +42,7 @@ Pagelinking(homeBtn, "index.html");
 //category
 Pagelinking(category, "category.html");
 //Product
-Pagelinking(order, "index.html");
+Pagelinking(Order, "Order.html");
 // About
 Pagelinking(About, "index.html");
 
@@ -151,33 +151,43 @@ var Sportdiv = document.querySelector(".sport"),    //Sport category div
 
         //Adding The Styles function
     //SUV style
+Pagelinking(suvBtn, "category.html")
 CatStyle(SUVdiv, "white", "url('picture/car/suv.jfif')");
 
     //Sedan style
+Pagelinking(sedanBtn, "category.html")
 CatStyle(sedandiv, "black", "url('picture/car/sedan.jfif')")
 
     //Pickup Style
+Pagelinking(pickupBtn, "category.html")
 CatStyle(pickupDiv, "white", "url('picture/car/pickup.jfif')")
 
     //Roadstar style
+Pagelinking(roadstarBtn, "category.html")
 CatStyle(roadstarDiv, "white", "url('picture/car/roadstar.jfif')")
    
     //Convertible style
+Pagelinking(convertibleBtn, "category.html")
 CatStyle(convertibleDiv, "red", "url('picture/car/convertible.jfif')")
 
     //Van
+Pagelinking(vanbtn, "category.html")
 CatStyle(vanDiv, "white", "url('picture/car/van.jpg')")
 
     //Truck
-CatStyle(truckDiv, "black", "url('picture/car/big truck.jpg')")
+Pagelinking(truckBtn, "category.html")
+CatStyle(truckDiv, "white", "url('picture/car/big truck.jpg')")
 
     //Bikes
+Pagelinking(bikesBtn, "category.html")
 CatStyle(bikesDiv, "white", "url('picture/car/bike.jpg')")
         
     //new car
+Pagelinking(newCarBtn, "category.html")
 CatStyle(newCar, "white", "url('picture/car/newcar.jpg')")
 
     //used car
+Pagelinking(usedCarBtn, "category.html")
 CatStyle(usedCar, "white", "url('picture/car/usedcar.jfif')")
 //Body Ends Here
 

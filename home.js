@@ -42,7 +42,7 @@ Pagelinking(homeBtn, "index.html");
 //category
 Pagelinking(category, "category.html");
 //Product
-Pagelinking(order, "index.html");
+Pagelinking(Order, "Order.html");
 // About
 Pagelinking(About, "index.html");
 
