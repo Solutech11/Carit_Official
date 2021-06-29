@@ -95,7 +95,9 @@ body{
 
 
            /* BODY */
-
+h2{
+    text-decoration: underline;
+}
     /* section 1 */
 .sectionI{
     background-repeat: no-repeat;
@@ -152,9 +154,12 @@ hr{
     height: 30%;
 }
 .sport>h2{
+    /* color */
+    /* mix-blend-mode:darken; */
     text-decoration: underline;
 }
 .sport>button{
+    mix-blend-mode: difference;
     border-radius: 30px;
     color: whitesmoke;
     padding: auto;
@@ -167,12 +172,31 @@ hr{
     border: transparent;
     border-bottom: solid gray 0.5em;
 }
-.sport>button:hover{
+.sport>button:hover {
     mix-blend-mode: difference;
-    /* background: ; */
-    /* filter: blur(2px); */
     background-color: rgba(99, 96, 96, 0.596);
-    transition-duration: 0.7s;
+    transition-duration: 0.9s;
+    border-bottom: black solid 0.5em;
+}
+
+.suvBtn{
+    mix-blend-mode: difference;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: auto;
+    font-size: 80%;
+    height: 23%;
+    font-weight: bolder;
+    
+    /* -webkit-filter: invert(100%); */
+    background: transparent;
+    border: transparent;
+    border-bottom: solid gray 0.5em;
+}
+.suvBtn:hover {
+    mix-blend-mode: difference;
+    background-color: rgba(99, 96, 96, 0.596);
+    transition-duration: 0.9s;
     border-bottom: black solid 0.5em;
 }
 

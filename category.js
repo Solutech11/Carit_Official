@@ -101,7 +101,23 @@ setInterval(function (){
 //section I end
 
     
-    // section II
+
+        // section II
+    //Variables
+// divs
+var Sportdiv = document.querySelector(".sport"),    //Sport category div
+    
+    SUVdiv = document.querySelector(".suv"),        //SUV Category div
+// Button
+    sportBtn = document.querySelector(".sportBtn"), //Sport Btn Category
+
+    suvBtn =  document.querySelector(".suvBtn");    //Suv btn Category
+
+
+    //Adding The Styles function
+    CatStyle(SUVdiv, "white", "url('picture/car/suv.jfif')");
+
+
 
 
 
@@ -181,7 +197,46 @@ function slide(image_one, image_two ){
       a++
         console.log(a);
     },4000);
-}
+};
+
+// Category styles function
+
+function CatStyle(divname, color, imageURL){
+    //This is for the div
+    divname.style.color= color;
+    divname.style.border= "solid black 3px";
+    divname.style.borderRadius= "30px";
+    divname.style.fontWeight= "bolder";
+    divname.style.fontSize= "120%";
+    divname.style.backgroundSize= "cover";
+    divname.style.backgroundPosition= "center";
+    divname.style.backgroundImage= imageURL;
+    divname.style.display= "flex";
+    divname.style.flexDirection= "column";
+    divname.style.alignItems= "center";
+    divname.style.justifyContent= "center";
+    // /* text-align: center; */
+    divname.style.height= "30%";
+
+    // //This is for the button
+    // buttonClass.style.mixBlendMode= "difference";
+    // buttonClass.style.borderRadius= "30px";
+    // buttonClass.style.color= "whitesmoke";
+    // buttonClass.style.padding= "auto";
+    // buttonClass.style.fontSize= "80%";
+    // buttonClass.style.height= "23%";
+    // buttonClass.style.fontWeight= "bolder";
+    // buttonClass.style.background= "transparent";
+    // buttonClass.style.border= "transparent";
+    // buttonClass.style.borderBottom= "solid gray 0.5em";
+    // //hover button
+    // buttonClass.addEventListener("mouseover", function(){
+    //     buttonClass.style.mixBlendMode= "difference";
+    //     buttonClass.style.backgroundColor= "rgba(99, 96, 96, 0.596)";
+    //     buttonClass.style.transitionDuration= "0.9s";
+    //     buttonClass.style.borderBottom= "black solid 0.5em";
+    
+};
 
 
 
