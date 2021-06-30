@@ -3,6 +3,8 @@
 var navopenBtn = document.querySelector(".open")
 var navbtns= document.querySelector(".navBtns");
 
+
+// console.log(localStorage.getItem("Orders"));
 // pages
     // home
 var homeBtn= document.querySelector(".home"),
@@ -44,7 +46,7 @@ Pagelinking(category, "category.html");
 //Product
 Pagelinking(Order, "Order.html");
 // About
-Pagelinking(About, "index.html");
+Pagelinking(About, "About.html");
 
 
 //Ended

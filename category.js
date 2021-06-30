@@ -44,7 +44,7 @@ Pagelinking(category, "category.html");
 //Product
 Pagelinking(Order, "Order.html");
 // About
-Pagelinking(About, "index.html");
+Pagelinking(About, "About.html");
 
 
 //Ended
