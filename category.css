@@ -103,7 +103,7 @@ h2{
     background-repeat: no-repeat;
     background-color: rgb(53, 51, 51);
     background-position: center;
-    /* padding: ; */
+    padding: 1%;
     transition-duration: 1.5s;
     margin-top: -1%;
     background-size: 100%;
