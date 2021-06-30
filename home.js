@@ -62,7 +62,7 @@ var loginbtn= document.querySelector(".login"),
 
 //button function
 Pagelinking(loginbtn, "#")
-Pagelinking(signupbtn, "#")
+Pagelinking(signupbtn, "signin.html")
 
     //Section 2
 // variables

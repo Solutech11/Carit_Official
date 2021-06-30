@@ -1,57 +1,28 @@
 // variable
-// Navigation var
-var navopenBtn = document.querySelector(".open")
-var navbtns= document.querySelector(".navBtns");
-
 // pages
-    // home
-var homeBtn= document.querySelector(".home"),
-
-    // category
-    category= document.querySelector(".category"),
-    
-    // Product
-    order= document.querySelector(".order"),
-
-    //About
-    About= document.querySelector(".about");
-
-
-// Event listners
-
-// For contect Button
-navopenBtn.addEventListener("click", function(){
    
-    function navopen(){
-        navopenBtn.innerHTML="≡"
-    }
-    
-    if (navopenBtn.innerHTML==="→" & navbtns.style.display === "flex"){
-        navbtns.style.display = "none";
-        
-        navopen();
-    }else {
-        navbtns.style.display = "flex";
-        navopenBtn.innerHTML = "→";
-    };
-});
-
-// Linking pages
-//Home
-Pagelinking(homeBtn, "index.html");
-//category
-Pagelinking(category, "category.html");
-//Product
-Pagelinking(order, "Order.html");
-// About
-Pagelinking(About, "About.html");
-
-
-//Ended
 
 
                 // body
+        // variables
+var fullname= document.querySelector(".name"),
+    email= document.querySelector(".email"),
+    password= document.querySelector(".password"),
+    submitBtn= document.querySelector(".submit");
+    // buttons
+var backBTN= document.querySelector(".backbtn");
+// console.log(len(fullname));
+//page linking
+Pagelinking(backBTN, "index.html");
 
+//Saving work
+submitBtn.addEventListener("click", function(e){
+    
+    if(fullname.length > 3){
+        console.log("yes");
+    }
+})
+// signup()
     //Body Ends Here
 
 
@@ -65,7 +36,11 @@ Pagelinking(About, "About.html");
 
 
 // Functions
+//local storage producer
 
+function signup(key, value){
+    localStorage.setItem(key, value)
+}
 // Pagelinking function
 function Pagelinking(ad,b){
 

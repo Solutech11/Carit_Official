@@ -119,7 +119,7 @@ var Sportdiv = document.querySelector(".sport"),    //Sport category div
 
     truckDiv = document.querySelector(".Truck"),     //truck div
 
-    bikesDiv = document.querySelector(".bikes"),     //bikes div
+    // bikesDiv = document.querySelector(".bikes"),     //bikes div
 
     newCar = document.querySelector(".newCar"),   //bikes div
 
@@ -141,7 +141,7 @@ var Sportdiv = document.querySelector(".sport"),    //Sport category div
     
     truckBtn = document.querySelector(".truckBtn"), //truck btn
 
-    bikesBtn = document.querySelector(".bikes"),    //Bikes btn
+    // bikesBtn = document.querySelector(".bikes"),    //Bikes btn
 
     newCarBtn = document.querySelector(".newCarBtn"),//new car btn
 
@@ -179,8 +179,8 @@ Pagelinking(truckBtn, "category.html")
 CatStyle(truckDiv, "white", "url('picture/car/big truck.jpg')")
 
     //Bikes
-Pagelinking(bikesBtn, "category.html")
-CatStyle(bikesDiv, "white", "url('picture/car/bike.jpg')")
+// Pagelinking(bikesBtn, "category.html")
+// CatStyle(bikesDiv, "white", "url('picture/car/bike.jpg')")
         
     //new car
 Pagelinking(newCarBtn, "category.html")
