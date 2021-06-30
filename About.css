@@ -103,7 +103,10 @@ h2{
     font-size: 2vw;
     text-decoration: underline;
 }
-p,ol{
+ul{
+    list-style: square;
+}
+p,ol, ul{
     font-size: 1.5vw;
 }
 hr{
@@ -138,6 +141,13 @@ a,abbr{
     padding: 3%;
 }
         /* section 3 ends here  */
+
+        
+        /* section4 */
+.SectionIV{
+    padding: 3%;
+}
+        /* section 4 ends here  */
 
 
            /* body ends here */
