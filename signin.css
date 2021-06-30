@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+    /* scrollbar-3dlight-color: blue; */
+}
+body{
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 237, 237);
+}
+
+.header{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 110%;
+    
+    margin-top: -1.8%;
+    /* background-color: rgb(41, 34, 34); */
+    padding: 1%;
+    background-repeat:no-repeat;
+    background-size: 101%;
+    background-image: url("picture/background/1.png");
+}
+.Title{
+    font-size: 3em;
+    color: red;
+}
+.strTitle{
+    color: green;
+}
+.Navfunction{
+    margin-top: 4%;
+}
+.Navfunction>.mainOpener>button:hover{
+    transition-duration: 1.5s;
+    border-radius: 50%;
+    border-right: 2px rgb(151, 147, 147) solid;
+    border-bottom: 4px rgb(236, 221, 221) solid;
+    background-color: transparent;
+    font-size: 1.3em;
+}
+.Navfunction>.navBtns>button:hover{
+    transition-duration: 1.5s;
+    border-radius: 50%;
+    border-right: 2px rgb(151, 147, 147) solid;
+    border-bottom: 2px rgb(236, 221, 221) solid;
+    background-color: transparent;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.Navfunction>.mainOpener>button{
+    transition-duration: 1.5s;
+    color: white;
+    width: 2em;
+    border: 20px;
+    background-color: transparent;
+    font-size: 2em;
+}
+.Navfunction>.navBtns>button{
+    border: 20px;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+ 
+}
+.Navfunction>.navBtns>.order{
+    transition-duration: 1.5s;
+    /* padding: -10%; */
+    /* border-radius:** 50%; */
+    /* border-right: 2px rgb(151, 147, 147) solid; */
+    /* border-bottom: 2px rgb(236, 221, 221) solid; */
+   text-decoration: white underline;
+    
+}
+.navBtns{
+    transition-duration: 1.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Navfunction{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+           /* BODY */
+.orderPg{
+    height: 600px;
+}
+.orderPg>center>h2{
+    text-decoration: underline;
+}
+.orderList{
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+
+
+
+                    /* footer Panel */
+.footer{
+    
+    border-top: black 5px solid;
+    background-size: 200%;
+    background-image: url("picture/background/1.png");
+    padding: 1%;
+    text-align: center;
+    color: honeydew;
+}
+.footer>h2{
+    text-decoration: underline;
+}
+.under{
+    display: flex;
+    flex-direction: row;
+    border-top: 5px solid whitesmoke;
+    justify-content: space-evenly;
+}
+.info{
+    padding: 1%;
+    border-right: solid white 5px;
+}
+.info>p{
+    text-decoration: underline;
+}
+.info>ul{
+    text-align: left;
+}
+
+.contact{
+    padding: 1%;
+
+}
+.contact>p{
+    text-decoration: underline;
+}
+.contact>ul{
+    text-align: left;
+}
+
+
+
+
+/* 
+.logo{
+    padding: 1%;
+}
+.logo>p{
+    text-decoration: underline;
+} */
+
