@@ -5,7 +5,7 @@ html{
 body{
     margin-top: 0px;
     margin: 0px;
-    padding: 0px;
+    /* padding: 5%; */
     background-color: rgb(245, 237, 237);
 }
 
@@ -95,17 +95,49 @@ body{
 
 
            /* BODY */
+
+        /* global  */
+
+h2{
+    text-align: center;
+    font-size: 2vw;
+    text-decoration: underline;
+}
+p,ol{
+    font-size: 1.5vw;
+}
+hr{
+    width: 95%;
+}
 a,abbr{
   
     text-decoration: none;
 }
-.SectionI>center>h2{
-    font-size: 2vw;
-    text-decoration: underline;
+
+        /* global end  */
+
+
+
+        /* Section 1 */
+.SectionI{
+    padding: 1%;
 }
-.SectionI>p{
-    font-size: 1.5vw;
+
+        /* section 1 ends here  */
+
+        /* Section 2 */
+.SectionII{
+    padding: 1%;
 }
+        /* section 2 ends here  */
+
+
+
+        /* section3 */
+.SectionII{
+    padding: 3%;
+}
+        /* section 3 ends here  */
 
 
            /* body ends here */
