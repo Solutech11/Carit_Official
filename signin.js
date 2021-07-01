@@ -5,21 +5,28 @@
 
                 // body
         // variables
-var fullname= document.querySelector(".name"),
-    email= document.querySelector(".email"),
-    password= document.querySelector(".password"),
-    submitBtn= document.querySelector(".submit");
+
+        var fullname= document.querySelector(".name"),
+        email= document.querySelector(".email"),
+        password= document.querySelector(".password");
+
+
     // buttons
-var backBTN= document.querySelector(".backbtn");
+var backBTN= document.querySelector(".backbtn"),
+submitBtn= document.querySelector(".submit");
+
 // console.log(len(fullname));
 //page linking
 Pagelinking(backBTN, "index.html");
-
+// console.log(detail);
 //Saving work
-submitBtn.addEventListener("click", function(e){
-    
-    if(fullname.length > 3){
-        console.log("yes");
+submitBtn.addEventListener("click", function(){
+    // var detail = [fullname.value, email.value, p];
+    // console.log(detail);
+    // console.log(fullname);    
+    if(((fullname.value).length > 8) & ((email.value).length>=6) & ((password.value).length>=8)){
+        var detail= [fullname.value,password.value]
+        window.localStorage[email, detail]
     }
 })
 // signup()
