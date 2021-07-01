@@ -1,70 +1,50 @@
 // variable
-//localStorage
-var FullName = window.localStorage.getItem("fullname");
-
-// Navigation var
-var navopenBtn = document.querySelector(".open")
-var navbtns= document.querySelector(".navBtns");
-var WelcomeLine= document.querySelector(".welcome");
-
-// pages
-    // home
-var homeBtn= document.querySelector(".home"),
-
-    // category
-    category= document.querySelector(".category"),
-    
-    // Product
-    order= document.querySelector(".order"),
-
-    //About
-    About= document.querySelector(".about");
-
-
-// Event listners
-
-// For contect Button
-navopenBtn.addEventListener("click", function(){
-   
-    function navopen(){
-        navopenBtn.innerHTML="≡"
-    }
-    
-    if (navopenBtn.innerHTML==="→" & navbtns.style.display === "flex"){
-        navbtns.style.display = "none";
-        
-        navopen();
-    }else {
-        navbtns.style.display = "flex";
-        navopenBtn.innerHTML = "→";
-    };
-});
-
-// Linking pages
-//Home
-Pagelinking(homeBtn, "index.html");
-//category
-Pagelinking(category, "category.html");
-//Product
-Pagelinking(order, "Order.html");
-// About
-Pagelinking(About, "About.html");
-
-
 //Local Storage
-if (window.localStorage.getItem("fullname")===null || window.localStorage.getItem("fullname")==="null" || window.localStorage.getItem("fullname")===""){
-    console.log("Unknown Account");
-} else {
-    WelcomeLine.innerHTML= "Welcome "+ String(FullName);
-
-    
-}
-
-//Ended
+var FullName= window.localStorage.getItem("fullname"),
+    EmailStore= window.localStorage.getItem("email"),
+    PasswordStore= window.localStorage.getItem("password");
+// pages
+   
 
 
                 // body
+        // variables
+        //input
+      
+      var  email= document.querySelector(".email"),
+        password= document.querySelector(".password");
+        //div
+        var mainDiv= document.querySelector(".Mainpage");
+        //output
+        var validator= document.querySelector(".validator")
+    // buttons
+var backBTN= document.querySelector(".backbtn"),
+submitBtn= document.querySelector(".submit");
 
+// console.log(len(fullname));
+//page linking
+Pagelinking(backBTN, "index.html");
+// console.log(detail);
+
+
+//Saving work
+submitBtn.addEventListener("click", function(){
+   if(String(EmailStore)===email.value & String(PasswordStore)===password.value){
+       validator.innerHTML= String(FullName) + " Logged in Successfully";
+       validator.style.color= "green";
+
+       email.disabled= true;
+       password.disabled= true;
+       submitBtn.disabled= true;
+       window.location.href= "Index.html";
+   }else{
+    validator.innerHTML= "Failed to Loggin";
+    validator.style.color= "red";
+    
+   }
+    
+})
+// signup()
     //Body Ends Here
 
 
@@ -78,7 +58,11 @@ if (window.localStorage.getItem("fullname")===null || window.localStorage.getIte
 
 
 // Functions
+//local storage producer
 
+function signup(key, value){
+    localStorage.setItem(key, value)
+}
 // Pagelinking function
 function Pagelinking(ad,b){
 

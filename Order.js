@@ -1,7 +1,11 @@
 // variable
+//localStorage
+var FullName = window.localStorage.getItem("fullname");
+
 // Navigation var
 var navopenBtn = document.querySelector(".open")
 var navbtns= document.querySelector(".navBtns");
+var WelcomeLine= document.querySelector(".welcome");
 
 // pages
     // home
@@ -46,6 +50,14 @@ Pagelinking(order, "Order.html");
 // About
 Pagelinking(About, "About.html");
 
+
+
+//Local Storage
+if (window.localStorage.getItem("fullname")===null || window.localStorage.getItem("fullname")==="null" || window.localStorage.getItem("fullname")===""){
+    console.log("Unknown Account");
+} else {
+    WelcomeLine.innerHTML= "Welcome "+ String(FullName);  
+};
 
 //Ended
 

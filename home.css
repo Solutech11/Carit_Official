@@ -25,10 +25,22 @@ body{
     font-size: 3em;
     color: red;
 }
+/* .welcome{
+    font-size: 2vw;
+} */
+.rightHand{
+    text-align: right;
+    color: white;
+}
+.open{
+    text-align: right;
+}
+
 .strTitle{
     color: green;
 }
 .Navfunction{
+    text-align: right;
     margin-top: 4%;
 }
 .Navfunction>.mainOpener>button:hover{
@@ -37,7 +49,7 @@ body{
     border-right: 2px rgb(151, 147, 147) solid;
     border-bottom: 4px rgb(236, 221, 221) solid;
     background-color: transparent;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 .Navfunction>.navBtns>button:hover{
     transition-duration: 1.5s;
@@ -72,15 +84,17 @@ body{
     
 }
 .navBtns{
+    transition-duration: 1.5s;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-
-.Navfunction{
-    display: flex;
-    flex-direction: row;
-}
+    /* 
+    .Navfunction{
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+    } */
 
 
 

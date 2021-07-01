@@ -1,8 +1,11 @@
 // variable
+//localStorage
+var FullName = window.localStorage.getItem("fullname");
+
 // Navigation var
 var navopenBtn = document.querySelector(".open")
 var navbtns= document.querySelector(".navBtns");
-
+var WelcomeLine= document.querySelector(".welcome");
 
 // console.log(localStorage.getItem("Orders"));
 // pages
@@ -49,6 +52,16 @@ Pagelinking(Order, "Order.html");
 Pagelinking(About, "About.html");
 
 
+//Local Storage
+if (window.localStorage.getItem("fullname")===null || window.localStorage.getItem("fullname")==="null" || window.localStorage.getItem("fullname")===""){
+    console.log("Unknown Account");
+} else {
+    WelcomeLine.innerHTML= "Welcome "+ String(FullName);
+
+    
+}
+
+
 //Ended
 
 
@@ -61,7 +74,7 @@ var loginbtn= document.querySelector(".login"),
     signupbtn= document.querySelector(".signup");
 
 //button function
-Pagelinking(loginbtn, "#")
+Pagelinking(loginbtn, "Login.html")
 Pagelinking(signupbtn, "signin.html")
 
     //Section 2

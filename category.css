@@ -25,6 +25,23 @@ body{
     background-size: 101%;
     background-image: url("picture/background/1.png");
 }
+
+.rightHand{
+    text-align: right;
+    color: white;
+}
+.open{
+    text-align: right;
+}
+
+.strTitle{
+    color: green;
+}
+.Navfunction{
+    text-align: right;
+    margin-top: 4%;
+}
+
 .Title{
     font-size: 3em;
     color: red;
@@ -82,12 +99,6 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
 }
-
-.Navfunction{
-    display: flex;
-    flex-direction: row;
-}
-
 
 
 
