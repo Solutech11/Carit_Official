@@ -167,7 +167,7 @@ var Sportdiv = document.querySelector(".sport"),    //Sport category div
         //Sport Linking
 Pagelinking(sportBtn, "supercar.html");
     //SUV style
-Pagelinking(suvBtn, "category.html")
+Pagelinking(suvBtn, "SUV.html")
 CatStyle(SUVdiv, "white", "url('picture/car/suv.jfif')");
 
     //Sedan style
