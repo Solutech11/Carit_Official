@@ -164,6 +164,8 @@ var Sportdiv = document.querySelector(".sport"),    //Sport category div
     pickupBtn = document.querySelector(".Pickupbtn"); //Pickup btn
 
         //Adding The Styles function
+        //Sport Linking
+Pagelinking(sportBtn, "supercar.html");
     //SUV style
 Pagelinking(suvBtn, "category.html")
 CatStyle(SUVdiv, "white", "url('picture/car/suv.jfif')");
@@ -297,6 +299,6 @@ function CatStyle(divname, color, imageURL){
     divname.style.alignItems= "center";
     divname.style.justifyContent= "center";
     // /* text-align: center; */
-    divname.style.height= "8.5%";
+    divname.style.height= "9.5%";
 
 };
