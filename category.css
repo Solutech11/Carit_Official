@@ -148,7 +148,7 @@ hr{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 4000px;
+    height: 3000px;
     font-size: 1.2em;
     transition-duration: 1s;
     
@@ -170,7 +170,7 @@ hr{
     align-items: center;
     justify-content: center;
     /* text-align: center; */
-    height: 9.5%;
+    height: 12%;
 }
 .sport>h2{
     /* color */

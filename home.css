@@ -256,6 +256,8 @@ input{
     text-decoration: underline;
 }
 .method>img{
+    height: 24vw;
+    width: 40%;
     border: solid red 5px;
     border-radius: 100%;
 }
@@ -301,6 +303,8 @@ input{
     text-decoration: underline;
 }
 .method>img{
+    height: 24vw;
+    width: 40%;
     border: solid red 5px;
     border-radius: 100%;
 }
@@ -346,6 +350,8 @@ input{
             text-decoration: underline;
         }
         .methodTwo>img{
+            height: 24vw;
+            width: 40%;
             border: solid rgb(29, 212, 236) 5px;
             border-radius: 100%;
         }
@@ -401,6 +407,9 @@ input{
     text-decoration: underline;
 }
 .methodThree>img{
+    transition-duration: 1s;
+    height: 24vw;
+    width: 40%;
     border: solid gold 5px;
     border-radius: 100%;
 }

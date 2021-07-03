@@ -127,9 +127,9 @@ var Sportdiv = document.querySelector(".sport"),    //Sport category div
 
     pickupDiv = document.querySelector(".Pickup"),  //Pickup category div
 
-    convertibleDiv = document.querySelector(".convertible"),//Convertible category div
+    // convertibleDiv = document.querySelector(".convertible"),//Convertible category div
 
-    vanDiv = document.querySelector(".Van"),        //van div
+    // vanDiv = document.querySelector(".Van"),        //van div
 
     truckDiv = document.querySelector(".Truck"),     //truck div
 
@@ -147,11 +147,11 @@ var Sportdiv = document.querySelector(".sport"),    //Sport category div
 
     suvBtn =  document.querySelector(".suvBtn"),    //Suv btn Category
 
-    roadstarBtn = document.querySelector(".roadstarbtn"),// Roadstar btn
+    // roadstarBtn = document.querySelector(".roadstarbtn"),// Roadstar btn
 
-    convertibleBtn = document.querySelector(".convertiblebtn"),// convertible btn
+    // convertibleBtn = document.querySelector(".convertiblebtn"),// convertible btn
 
-    vanbtn = document.querySelector(".vanbtn"),     //van btn
+    // vanbtn = document.querySelector(".vanbtn"),     //van btn
     
     truckBtn = document.querySelector(".truckBtn"), //truck btn
 
@@ -171,24 +171,16 @@ Pagelinking(suvBtn, "SUV.html")
 CatStyle(SUVdiv, "white", "url('picture/car/suv.jfif')");
 
     //Sedan style
-Pagelinking(sedanBtn, "category.html")
+Pagelinking(sedanBtn, "Sedan.html")
 CatStyle(sedandiv, "black", "url('picture/car/sedan.jfif')")
 
     //Pickup Style
-Pagelinking(pickupBtn, "category.html")
+Pagelinking(pickupBtn, "pickup.html")
 CatStyle(pickupDiv, "white", "url('picture/car/pickup.jfif')")
-
-    //Roadstar style
-Pagelinking(roadstarBtn, "category.html")
-CatStyle(roadstarDiv, "white", "url('picture/car/roadstar.jfif')")
    
-    //Convertible style
-Pagelinking(convertibleBtn, "category.html")
-CatStyle(convertibleDiv, "red", "url('picture/car/convertible.jfif')")
-
-    //Van
-Pagelinking(vanbtn, "category.html")
-CatStyle(vanDiv, "white", "url('picture/car/van.jpg')")
+//     //Convertible style
+// Pagelinking(convertibleBtn, "category.html")
+// CatStyle(convertibleDiv, "red", "url('picture/car/convertible.jfif')")
 
     //Truck
 Pagelinking(truckBtn, "category.html")
@@ -299,6 +291,6 @@ function CatStyle(divname, color, imageURL){
     divname.style.alignItems= "center";
     divname.style.justifyContent= "center";
     // /* text-align: center; */
-    divname.style.height= "9.5%";
+    divname.style.height= "12%";
 
 };
