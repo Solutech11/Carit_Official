@@ -7,12 +7,14 @@
         // variables
         //input
         var fullname= document.querySelector(".name"),
+        phone= document.querySelector(".phone")
         email= document.querySelector(".email"),
+        address= document.querySelector(".Address"),
         password= document.querySelector(".password");
         //div
         var mainDiv= document.querySelector(".Mainpage");
         //output
-        var validator= document.querySelector(".validator")
+        var validator= document.querySelector(".validator");
     // buttons
 var backBTN= document.querySelector(".backbtn"),
 submitBtn= document.querySelector(".submit");
@@ -27,7 +29,7 @@ Pagelinking(backBTN, "index.html");
 submitBtn.addEventListener("click", function(){
    
     //    successfull validation 1
-        if(((fullname.value).length > 8) & ((email.value).length>=6) & ((password.value).length>=8)){
+        if(((fullname.value).length > 8) &((phone.value).length===11) & (phone.value/phone.value)===1 & ((email.value).length>=6) & ((password.value).length>=8) & ((address.value).length > 9)){
             validator.style.color= "green";
             alert("Mr." + fullname.value + " your have successfully signed in")
             validator.innerHTML= "Mr." + fullname.value + " your have successfully signed in";
@@ -35,6 +37,7 @@ submitBtn.addEventListener("click", function(){
             var Fullname = fullname.value;
                 // storing in Local Storage
             window.localStorage.setItem("fullname", Fullname );
+            window.localStorage.setItem("Address", address.value)
             window.localStorage.setItem("password", password.value);
             window.localStorage.setItem("email", email.value)
 
@@ -62,6 +65,9 @@ submitBtn.addEventListener("click", function(){
         }else if(password.value<8){
             validator.style.color= "red";
             validator.innerHTML= "password is less than 8 digit";
+        }else {
+            validator.style.color= "red";
+            validator.innerHTML= "Please check your Number and Address"
         }
     
 })

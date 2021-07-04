@@ -130,7 +130,7 @@ body{
 }
 
 
-.carbtn{
+.car>button{
     font-size: 3vw;
     background: none;
     border: solid black 2px;
@@ -138,7 +138,7 @@ body{
     /* border bu */
 }
 
-.carbtn:hover{
+.car>button:hover{
     background-color: black;
     border-color: blanchedalmond;
     color:wheat;
@@ -161,6 +161,25 @@ body{
     border-bottom: solid black 6px;
     background-color: rgb(31, 29, 29);
 }
+
+
+.orderbtn{
+    border-top-right-radius: 10vw;
+    height: 8vh;
+    width: 15vw;
+    font-size: 3vw;
+    border: transparent 0px solid;
+    color: honeydew;
+    background-color: rgb(53, 49, 49);
+
+}
+
+.orderbtn:hover{
+    border-right: black solid 6px;
+    border-bottom: solid black 6px;
+    background-color: rgb(31, 29, 29);
+}
+
 
         /* body ends here  */
 

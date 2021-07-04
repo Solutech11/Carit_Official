@@ -4,53 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=0.6">
-    <title>Signin</title>
-    <link rel="stylesheet" href="signin.css">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
 </head>
 
 <body>
     <div class="header">
         <h1 class="Title">Car<strong class="strTitle">It</strong></h1>
-        <h2 style="color: aliceblue;text-align: center; margin-top: 0%;">Signup</h2>
+        <h2 style="color: aliceblue;text-align: center; margin-top: 0%;">Payment</h2>
       
     </div>
 
             <!-- BODY STARTS HERE         -->
 <div class="Signup">
-    <button class="backbtn">Home</button>
-    <center><h2>Slide down to SignUp</h2></center>
+    <!-- <button class="backbtn">Home</button> -->
+    <!-- <center><h2>Slide down to S</h2></center> -->
+    <button class="backbtn">back</button>
 <center>
-    <div class="Mainpage">
-        <h2>SignUp Here</h2>
-            <p class="validator">Please fill all forms</p>
-            <div class="fullname">
-                <label for="name">Name</label><br>
-                <input type="text" class="name" placeholder="Please input your name">
-                </div>
 
-                <div class="address">
-                    <label for="address">Address</label><br>
-                    <input type="text" class="Address" placeholder="Please input your Address">
+    <div class="Mainpage">
+        <h2 class="namePlacer"></h2>
+            <p class="validator"></p>
+            <!-- <div class="Accnt Balance">
+                <label for="name">Total Account balance</label><br>
+                <input type="text" class="AccntBal" placeholder="Input ur account Balance">
+                </div> -->
+
+                <div class="ATM Number">
+                    <label for="ATMNum">ATM Number</label><br>
+                    <input type="text" class="Atmnumber" placeholder="Input ur ATM number" maxlength="16">
                     </div>
 
-                    <div class="PhnoNum">
-                        <label for="PhnoNum">Phone Number</label><br>
-                        <input type="text" class="phone" placeholder="Please input your Number" maxlength="11">
+                    <div class="CVV">
+                        <label for="CVV">Input your CVVs</label><br>
+                        <input type="text" class="CVVS" placeholder="Input your CVVs" maxlength="3">
                         </div>
-                
-            
-            <div class="Email">
-                <label for="email">Email</label><br>
-                <input type="email" class="email" placeholder="Please input your Email"><br>
-            </div>
 
-            <div class="Password">
-                <label for="password">Password</label><br>
-                <input type="password" class="password" placeholder="Please input your Email"><br>
-            </div>
+                        <div class="Pin number">
+                            <label for="name">Pin Number</label><br>
+                            <input type="text" class="PIN" placeholder="Input ur Pin number" maxlength="4">
+                            </div>
+            
+        
+    
             <button class="submit">Submit</button>
 
-            <p><a href="Login.html">Click here if you have an account</a></p>
+            <!-- <p><a href="Login.html">Click here if you have an account</a></p> -->
         
     </div>
 </center>
@@ -102,5 +101,5 @@
 
 </body>
 
-<script src="signin.js"></script>
+<script src="payment.js"></script>
 </html>

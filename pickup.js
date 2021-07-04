@@ -7,14 +7,27 @@
 
     //Variables
 //cardiv
-var carOne = document.getElementById("#onecar"),
-    carTwo = document.getElementById("#twocar"),
-    carThree = document.getElementById("#threecar"),
-    carFour = document.getElementById("#fourcar"),
-    carFive = document.getElementById("#fivecar");
+var carOne = document.querySelector(".onebtn"),
+    carTwo = document.querySelector(".twobtn"),
+    carThree = document.querySelector(".threebtn"),
+   
     var backBTN= document.querySelector(".backbtn");
 
+    var orderBtn= document.querySelector(".orderbtn")
+
+Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
+
+        //car order
+carOrder(carOne, 22, "picture/pickup/1bod1.png", "Ram 1500", "36,050,000");
+carOrder(carTwo, 23, "picture/pickup/2bod1.png", "2021 Ford F150", "33,800,000");
+carOrder(carThree, 24,"picture/pickup/3bod1.png", "2014 G-class 6x6", "1,230,710,000");
+
+
+
+  //local storage
+  var Fullnamelocal= localStorage.getItem("fullname"),
+  address= window.localStorage.getItem("Address");
 
 //     //page Linking
 // Pagelinking(carOne,"guza.html");
@@ -82,4 +95,20 @@ function calc(btn, input, price, outputer){
     
 }
 
-//slideshow function
+
+//car ordering
+function carOrder(a, idNum, ImageUrl, OrderName, Orderprice){
+    a.addEventListener("click", function(){
+        // if (String(localStorage.getItem("order")) === "false"){
+            localStorage.setItem("Id", idNum);
+            localStorage.setItem("orderImg", ImageUrl);
+            localStorage.setItem("orderName", OrderName);
+            localStorage.setItem("OrderPrice", Orderprice);
+            // localStorage.setItem("");
+            // alert("Mr."+ String(Fullnamelocal) + " your " + String(window.localStorage.getItem("orderName")) +" will be delivered to " + address)
+            window.location.href= "payment.html"
+        // }else{
+            // alert("You have made an order Already. Now click back to go order ");
+        // }
+    })
+}

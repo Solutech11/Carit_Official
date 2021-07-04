@@ -1,6 +1,6 @@
 // variable
 //localStorage
-var FullName = window.localStorage.getItem("fullname");
+var FullNamelocal = window.localStorage.getItem("fullname");
 
 // Navigation var
 var navopenBtn = document.querySelector(".open")
@@ -51,12 +51,25 @@ Pagelinking(order, "Order.html");
 Pagelinking(About, "About.html");
 
 
-
+window.localStorage.setItem("order" , "false")
 //Local Storage
+// getItem
+var CarId= String(window.localStorage.getItem("Id")),
+    url = String(window.localStorage.getItem("orderImg")),
+    OrderName= String(window.localStorage.getItem("orderName")),
+    OrderPrice= String(window.localStorage.getItem("OrderPrice")),
+    address= String(window.localStorage.getItem("Address"));
+
+if(CarId!=""& CarId!=null & CarId!="null"){
+    window.localStorage.setItem("order", "True")
+}else{
+    window.localStorage.setItem("order", "false")
+}
+
 if (window.localStorage.getItem("fullname")===null || window.localStorage.getItem("fullname")==="null" || window.localStorage.getItem("fullname")===""){
     console.log("Unknown Account");
 } else {
-    WelcomeLine.innerHTML= "Welcome "+ String(FullName);  
+    WelcomeLine.innerHTML= "Welcome "+ String(FullNamelocal);  
 };
 
 //Ended

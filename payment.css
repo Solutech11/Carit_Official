@@ -90,77 +90,48 @@ body{
 }
 
 
-.orderbtn{
-    border-top-right-radius: 10vw;
-    height: 8vh;
-    width: 15vw;
-    font-size: 3vw;
-    border: transparent 0px solid;
-    color: honeydew;
-    background-color: rgb(53, 49, 49);
-
-}
-
-.orderbtn:hover{
-    border-right: black solid 6px;
-    border-bottom: solid black 6px;
-    background-color: rgb(31, 29, 29);
-}
-
 
 
 
 
 
            /* BODY */
+/* global  */
 
-.carsContainer{
-    /* padding: 4%; */
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* height:; */
-
-    justify-content:space-evenly;
-    /* align-items:flex-start; */
-}
-.car{
-    text-decoration: none;
-    transition-duration: 1s;
-    border-radius: 16px;
+input{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 70%;
+    border-radius: 10px;
+    height: 9%;
     font-size: 1.5vw;
-    margin: 1%;
-    /* margin-bottom: 2px; */
-    width: 25%;
-    height: 40vw;
-    border: 5px solid black;
 }
-.car:hover{
-
-    height: 42vw;
-    background-color: grey;
+h2{
+    text-align: center;
+    font-size: 2.3vw;
+    text-decoration: underline;
+}
+ul{
+    list-style: square;
+}
+p,ol, ul,label{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 1.8vw;
+}
+hr{
+    width: 95%;
+}
+a,abbr{
+  
+    text-decoration: none;
 }
 
+        /* global end  */
 
-.car>button{
-    font-size: 3vw;
-    background: none;
-    border: solid black 2px;
-    border-radius: 7px;
-    /* border bu */
-}
 
-.car>button:hover{
-    background-color: black;
-    border-color: blanchedalmond;
-    color:wheat;
-}
+/* .Signup{
+    /* text-align: center; */
+    /* height: 65vh; */
 
 
 .backbtn{
@@ -177,6 +148,40 @@ body{
     border-right: black solid 6px;
     border-bottom: solid black 6px;
     background-color: rgb(31, 29, 29);
+}
+center{
+    height: 83%;
+}
+.Mainpage{
+    
+    transition-duration: 2s;
+    margin: 35vh;
+    margin-left: 12%;
+    margin-top: 15%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around; */
+    border-radius: 30px;
+    border: black 3px solid;
+    height: 100%;
+    width: 70%;
+    padding: 2%;
+    /* filter: blur(); */
+}
+/* div.fullname */
+
+.submit{
+    font-size: 1.5vw;
+    transition-duration: 1s;
+    border-radius: 30px;
+    height: 5vh;
+    margin-top: 1%;
+    color: white;
+    background-color: rgb(85, 81, 81);
+}
+.submit:hover{
+    background-color: rgb(34, 32, 32);
 }
 
         /* body ends here  */

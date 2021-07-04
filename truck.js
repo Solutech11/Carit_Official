@@ -1,4 +1,4 @@
-2// variable
+// variable
 // pages
    
 
@@ -7,16 +7,20 @@
 
     //Variables
 //cardiv
-var carOne = document.getElementById("#onecar"),
-    carTwo = document.getElementById("#twocar"),
-    carThree = document.getElementById("#threecar"),
-    carFour = document.getElementById("#fourcar"),
-    carFive = document.getElementById("#fivecar");
+var carOne = document.querySelector(".onebtn");
+    
     var backBTN= document.querySelector(".backbtn");
 
+    var orderBtn= document.querySelector(".orderbtn")
+
+Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
 
-//     //page Linking
+        //car order
+carOrder(carOne, 6, "picture/truck/1bod1.jpeg", "SinoTruck China", "25,903,000");
+
+
+
 // Pagelinking(carOne,"guza.html");
 // Pagelinking(carTwo,"#");
 // Pagelinking(carThree,"#");
@@ -27,6 +31,9 @@ Pagelinking(backBTN, "category.html");
 
     //Body Ends Here
 
+  //local storage
+  var Fullnamelocal= localStorage.getItem("fullname"),
+  address= window.localStorage.getItem("Address");
 
 
 
@@ -82,4 +89,20 @@ function calc(btn, input, price, outputer){
     
 }
 
-//slideshow function
+
+//car ordering
+function carOrder(a, idNum, ImageUrl, OrderName, Orderprice){
+    a.addEventListener("click", function(){
+        // if (String(localStorage.getItem("order")) === "false"){
+            localStorage.setItem("Id", idNum);
+            localStorage.setItem("orderImg", ImageUrl);
+            localStorage.setItem("orderName", OrderName);
+            localStorage.setItem("OrderPrice", Orderprice);
+            // localStorage.setItem("");
+            // alert("Mr."+ String(Fullnamelocal) + " your " + String(window.localStorage.getItem("orderName")) +" will be delivered to " + address)
+            window.location.href= "payment.html"
+        // }else{
+            // alert("You have made an order Already. Now click back to go order ");
+        // }
+    })
+}
