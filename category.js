@@ -183,7 +183,7 @@ CatStyle(pickupDiv, "white", "url('picture/car/pickup.jfif')")
 // CatStyle(convertibleDiv, "red", "url('picture/car/convertible.jfif')")
 
     //Truck
-Pagelinking(truckBtn, "category.html")
+Pagelinking(truckBtn, "Truck.html")
 CatStyle(truckDiv, "white", "url('picture/car/big truck.jpg')")
 
     //Bikes
@@ -191,11 +191,11 @@ CatStyle(truckDiv, "white", "url('picture/car/big truck.jpg')")
 // CatStyle(bikesDiv, "white", "url('picture/car/bike.jpg')")
         
     //new car
-Pagelinking(newCarBtn, "category.html")
+Pagelinking(newCarBtn, "New car.html")
 CatStyle(newCar, "white", "url('picture/car/newcar.jpg')")
 
     //used car
-Pagelinking(usedCarBtn, "category.html")
+Pagelinking(usedCarBtn, "Used car.html")
 CatStyle(usedCar, "white", "url('picture/car/usedcar.jfif')")
 //Body Ends Here
 

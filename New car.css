@@ -1,0 +1,219 @@
+html{
+    scroll-behavior: smooth;
+    /* scrollbar-3dlight-color: blue; */
+}
+body{
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 237, 237);
+}
+
+.header{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 110%;
+    justify-content: center;
+    margin-top: -1.8%;
+    
+    padding: 1%;
+    background-repeat:no-repeat;
+    background-size: 101%;
+    background-image: url("picture/background/1.png");
+}
+.Title{
+    text-align: center;
+    font-size: 3em;
+    color: red;
+}
+.strTitle{
+    color: green;
+}
+.Navfunction{
+    margin-top: 4%;
+}
+.Navfunction>.mainOpener>button:hover{
+    transition-duration: 1.5s;
+    border-radius: 50%;
+    border-right: 2px rgb(151, 147, 147) solid;
+    border-bottom: 4px rgb(236, 221, 221) solid;
+    background-color: transparent;
+    font-size: 1.3em;
+}
+.Navfunction>.navBtns>button:hover{
+    transition-duration: 1.5s;
+    border-radius: 50%;
+    border-right: 2px rgb(151, 147, 147) solid;
+    border-bottom: 2px rgb(236, 221, 221) solid;
+    background-color: transparent;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.Navfunction>.mainOpener>button{
+    transition-duration: 1.5s;
+    color: white;
+    width: 2em;
+    border: 20px;
+    background-color: transparent;
+    font-size: 2em;
+}
+.Navfunction>.navBtns>button{
+    border: 20px;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+ 
+}
+.Navfunction>.navBtns>.order{
+    transition-duration: 1.5s;
+    /* padding: -10%; */
+    /* border-radius:** 50%; */
+    /* border-right: 2px rgb(151, 147, 147) solid; */
+    /* border-bottom: 2px rgb(236, 221, 221) solid; */
+   text-decoration: white underline;
+    
+}
+.navBtns{
+    transition-duration: 1.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Navfunction{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+           /* BODY */
+
+.carsContainer{
+    /* padding: 4%; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height:; */
+
+    justify-content:space-evenly;
+    /* align-items:flex-start; */
+}
+.car{
+    text-decoration: none;
+    transition-duration: 1s;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    margin: 1%;
+    /* margin-bottom: 2px; */
+    width: 25%;
+    height: 40vw;
+    border: 5px solid black;
+}
+.car:hover{
+
+    height: 42vw;
+    background-color: grey;
+}
+
+
+.carbtn{
+    font-size: 3vw;
+    background: none;
+    border: solid black 2px;
+    border-radius: 7px;
+    /* border bu */
+}
+
+.carbtn:hover{
+    background-color: black;
+    border-color: blanchedalmond;
+    color:wheat;
+}
+
+
+.backbtn{
+    /* padding: 1%; */
+    border-bottom-right-radius: 10vw;
+    height: 8vh;
+    width: 15vw;
+    font-size: 3vw;
+    border: transparent 0px solid;
+    color: honeydew;
+    background-color: rgb(53, 49, 49);
+}
+.backbtn:hover{
+    border-right: black solid 6px;
+    border-bottom: solid black 6px;
+    background-color: rgb(31, 29, 29);
+}
+
+        /* body ends here  */
+
+
+                    /* footer Panel */
+.footer{
+    
+    border-top: black 5px solid;
+    background-size: 200%;
+    background-image: url("picture/background/1.png");
+    padding: 1%;
+    text-align: center;
+    color: honeydew;
+}
+.footer>h2{
+    text-decoration: underline;
+}
+.under{
+    display: flex;
+    flex-direction: row;
+    border-top: 5px solid whitesmoke;
+    justify-content: space-evenly;
+}
+.info{
+    padding: 1%;
+    border-right: solid white 5px;
+}
+.info>p{
+    text-decoration: underline;
+}
+.info>ul{
+    text-align: left;
+}
+
+.contact{
+    padding: 1%;
+
+}
+.contact>p{
+    text-decoration: underline;
+}
+.contact>ul{
+    text-align: left;
+}
+
+
+
+
+/* 
+.logo{
+    padding: 1%;
+}
+.logo>p{
+    text-decoration: underline;
+} */
+
