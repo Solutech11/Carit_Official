@@ -18,11 +18,11 @@ Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
 
         //car order
-carOrder(carOne, 1, "picture/Used cars/1bod1.png", "2011 RAV 4", "3,050,000");
-carOrder(carTwo, 2, "picture/Used cars/2bod1.png", "2003 Nissan Quest", "800,000");
-carOrder(carThree,3,"picture/Used cars/3bod1.png", "2014 Honda Pilot", "3,710,000");
-carOrder(carFour, 4, "picture/Used cars/4bod1.png", "2010 Pointiac Vibe", "3,020,000" );
-carOrder(carFive, 5, "picture/Used cars/5bod1.png", "2004 Golf 3","600,000");
+carOrder(carOne, 1, "url('picture/Used cars/1bod1.png')", "2011 RAV 4", "3,050,000");
+carOrder(carTwo, 2, "url('picture/Used cars/2bod1.png')", "2003 Nissan Quest", "800,000");
+carOrder(carThree,3,"url('picture/Used cars/3bod1.png')", "2014 Honda Pilot", "3,710,000");
+carOrder(carFour, 4, "url('picture/Used cars/4bod1.png')", "2010 Pointiac Vibe", "3,020,000" );
+carOrder(carFive, 5, "url('picture/Used cars/5bod1.png')", "2004 Golf 3","600,000");
 
 
     //Body Ends Here

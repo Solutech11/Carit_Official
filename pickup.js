@@ -19,9 +19,9 @@ Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
 
         //car order
-carOrder(carOne, 22, "picture/pickup/1bod1.png", "Ram 1500", "36,050,000");
-carOrder(carTwo, 23, "picture/pickup/2bod1.png", "2021 Ford F150", "33,800,000");
-carOrder(carThree, 24,"picture/pickup/3bod1.png", "2014 G-class 6x6", "1,230,710,000");
+carOrder(carOne, 22, "url('picture/pickup/1bod1.png')", "Ram 1500", "36,050,000");
+carOrder(carTwo, 23, "url('picture/pickup/2bod1.png')", "2021 Ford F150", "33,800,000");
+carOrder(carThree, 24,"url('picture/pickup/3bod1.png')", "2014 G-class 6x6", "1,230,710,000");
 
 
 

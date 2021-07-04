@@ -17,7 +17,7 @@ Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
 
         //car order
-carOrder(carOne, 6, "picture/truck/1bod1.jpeg", "SinoTruck China", "25,903,000");
+carOrder(carOne, 6, "url('picture/truck/1bod1.jpeg')", "SinoTruck China", "25,903,000");
 
 
 

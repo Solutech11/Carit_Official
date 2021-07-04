@@ -20,11 +20,11 @@ Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
 
         //car order
-carOrder(carOne, 12, "picture/sport/1bod1.png", "Peganni Hauyra", "1,020,050,000", "1020050000");
-carOrder(carTwo, 13, "picture/sport/2bod1.png", "2021 Bentley Continental GT V8 Convertible", "113,213,000", "113213000");
-carOrder(carThree,14,"picture/sport/3bod1.png", "2021 Mercedes Benz S-class", "55,710,000", "55710000");
-carOrder(carFour, 15, "picture/sport/4bod1.png", "Lamborghini Urus", "292,020,000", "292020000" );
-carOrder(carFive, 16, "picture/sport/5bod1.png", "Bugatti Divo", "2,999,999,500", "2999999500");
+carOrder(carOne, 12, "url('/picture/sport/1bod1.png')", "Peganni Hauyra", "1,020,050,000", "1020050000");
+carOrder(carTwo, 13, "url('/picture/sport/2bod1.png')", "2021 Bentley Continental GT V8 Convertible", "113,213,000", "113213000");
+carOrder(carThree,14,"url('/picture/sport/3bod1.png')", "2021 Mercedes Benz S-class", "55,710,000", "55710000");
+carOrder(carFour, 15, "url('/picture/sport/4bod1.png')", "Lamborghini Urus", "292,020,000", "292020000" );
+carOrder(carFive, 16, "url('/picture/sport/5bod1.png')", "Bugatti Divo", "2,999,999,500", "2999999500");
 
 
 

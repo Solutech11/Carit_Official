@@ -75,8 +75,26 @@ if (window.localStorage.getItem("fullname")===null || window.localStorage.getIte
 //Ended
 
 
-                // body
 
+
+        //order body
+//variable
+var orderList= document.querySelector(".orderList"),
+    image =document.querySelector(".image"),
+    carname = document.querySelector(".nameCar"),
+    IdNumb =document.querySelector(".idNumber"),
+    price = document.querySelector(".price"),
+    addressCar= document.querySelector(".address");
+    // contacts =document.querySelector(".contacts");
+// console.log(CarId);
+if(CarId!=""){
+    orderList.style.display="inherit";
+    image.style.backgroundImage = url;
+    carname.innerHTML= OrderName;
+    IdNumb.innerHTML = CarId;
+    price.innerHTML = "₦"+OrderPrice;
+    addressCar.innerHTML = address;
+}
     //Body Ends Here
 
 

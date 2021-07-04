@@ -20,11 +20,11 @@ Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
 
         //car order
-carOrder(carOne, 7, "picture/Suv/1bod1.png", "2021 Toyota Highlander", "19,000,000");
-carOrder(carTwo, 8, "picture/Suv/2bod1.png", "2021 Rolls-Royce Cullinan", "170,800,000");
-carOrder(carThree,9,"picture/Suv/3bod1.png", "2021 RangeRover Sport", "97,710,000");
-carOrder(carFour, 10, "picture/Suv/4bod1.png", "2021 Ford Escape", "14,120,000" );
-carOrder(carFive, 11, "picture/Suv/5bod1.png", "2021 Lexus LX 2021", "73,000,000");
+carOrder(carOne, 7, "url('picture/Suv/1bod1.png')", "2021 Toyota Highlander", "19,000,000");
+carOrder(carTwo, 8, "url('picture/Suv/2bod1.png')", "2021 Rolls-Royce Cullinan", "170,800,000");
+carOrder(carThree,9,"url('picture/Suv/3bod1.png')", "2021 RangeRover Sport", "97,710,000");
+carOrder(carFour, 10, "url('picture/Suv/4bod1.png')", "2021 Ford Escape", "14,120,000" );
+carOrder(carFive, 11, "url('picture/Suv/5bod1.png')", "2021 Lexus LX 2021", "73,000,000");
 
 
   //local storage

@@ -20,11 +20,11 @@ Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
 
         //car order
-carOrder(carOne, 25, "picture/new cars/1bod1.png", "Mercedes Benz G-class", "1,000,050,000");
-carOrder(carTwo, 26, "picture/new cars/2bod1.png", "2021 Toyota Corolla", "27,800,000");
-carOrder(carThree,27,"picture/new cars/3bod1.png", "2020 Porsche Tycan Turbo S", "98,710,000");
-carOrder(carFour, 28, "picture/new cars/4bod1.png", "2021 Toyota Land Cruiser", "44,020,000" );
-carOrder(carFive, 29, "picture/new cars/5bod1.png", "2020 Toyota Supra", "28,000,500");
+carOrder(carOne, 25, "url('picture/new cars/1bod1.png')", "Mercedes Benz G-class", "1,000,050,000");
+carOrder(carTwo, 26, "url('picture/new cars/2bod1.png')", "2021 Toyota Corolla", "27,800,000");
+carOrder(carThree,27,"url('picture/new cars/3bod1.png')", "2020 Porsche Tycan Turbo S", "98,710,000");
+carOrder(carFour, 28, "url('picture/new cars/4bod1.png')", "2021 Toyota Land Cruiser", "44,020,000" );
+carOrder(carFive, 29, "url('picture/new cars/5bod1.png')", "2020 Toyota Supra", "28,000,500");
 
 
   //local storage

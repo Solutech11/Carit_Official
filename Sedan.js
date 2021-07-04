@@ -20,11 +20,11 @@ Pagelinking(orderBtn, "Order.html");
 Pagelinking(backBTN, "category.html");
 
         //car order
-carOrder(carOne, 17, "picture/Sedans/1bod1.png", "BMW 7 series", "52,050,000");
-carOrder(carTwo, 18, "picture/Sedans/2bod1.png", "2021 Honda Accord", "18,800,000");
-carOrder(carThree,19,"picture/Sedans/3bod1.png", "2021 Toyota Camry", "18,009,000");
-carOrder(carFour, 20, "picture/Sedans/4bod1.png", "2021 Mercedes C-class", "57,000,000");
-carOrder(carFive, 21, "picture/Sedans/5bod3.png", "Jaguar XF", "25,560,000");
+carOrder(carOne, 17, "url('picture/Sedans/1bod1.png')", "BMW 7 series", "52,050,000");
+carOrder(carTwo, 18, "url('picture/Sedans/2bod1.png')", "2021 Honda Accord", "18,800,000");
+carOrder(carThree,19,"url('picture/Sedans/3bod1.png')", "2021 Toyota Camry", "18,009,000");
+carOrder(carFour, 20, "url('picture/Sedans/4bod1.png')", "2021 Mercedes C-class", "57,000,000");
+carOrder(carFive, 21, "url('picture/Sedans/5bod3.png')", "Jaguar XF", "25,560,000");
 
 
 
