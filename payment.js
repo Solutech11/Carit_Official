@@ -1,5 +1,6 @@
 // variable
 // pages
+alert("Dont place your real details this is a school project")
    //local Storage getting
    var Fullname = window.localStorage.getItem("fullname");
 var LocalPrice= window.localStorage.getItem("OrderPrice");
