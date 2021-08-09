@@ -42,6 +42,7 @@ navopenBtn.addEventListener("click", function(){
 });
 
 // Linking pages
+console.log("amaka");
 //Home
 Pagelinking(homeBtn, "index.html");
 //category

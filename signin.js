@@ -32,7 +32,7 @@ submitBtn.addEventListener("click", function(){
         if(((fullname.value).length > 8) &((phone.value).length===11) & (phone.value/phone.value)===1 & ((email.value).length>=6) & ((password.value).length>=8) & ((address.value).length > 9)){
             validator.style.color= "green";
             alert("Mr." + fullname.value + " your have successfully signed in")
-            validator.innerHTML= "Mr." + fullname.value + " your have successfully signed in";
+            validator.innerHTML=  fullname.value + " your have successfully signed in";
             // var security= [fullname.value,email.value,password.value];
             var Fullname = fullname.value;
                 // storing in Local Storage
